@@ -1,0 +1,182 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+    overflow: auto;
+    float: left;
+}
+
+.first-section {
+    width: 400px;
+    height: 220px;
+    margin: 0 auto;
+    overflow: auto;
+    float: left;
+}
+
+.second-section {
+    width: 340px;
+    height: 220px;
+    margin: 0 auto;
+    overflow: auto;
+    float: left;
+}
+
+.third-section {
+    width: 360px;
+    height: 220px;
+    margin: 0 auto;
+    overflow: auto;
+    float: left;
+}
+
+/***** HEADER *****/
+header .full-width {
+    height: 110px;
+    border-bottom: 3px solid #77a466;
+}
+
+header h1 {
+    font-size: 30px;
+    line-height: 23px;
+    padding: 25px 0;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    padding: 25px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    color: #77a466;
+}
+
+/***** MAIN *****/
+
+/***** TOP SECTION *****/
+
+.top-section {
+    height: 467px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.main-image {
+    height:auto;
+    border-bottom: 3px solid #77a466;
+}
+
+#top-section h2 {
+   font-size: 18px;
+   line-height: 23px;
+   text-align: left; 
+   color: #77a466;
+   padding-top: 15px;
+}
+
+#top-section p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    padding: 15px 0 30px 0;
+}
+
+/***** BOTTOM SECTION *****/
+#bottom-section h4{
+    font-size: 12px;
+    line-height: 25px;
+    padding-top: 15px;
+}
+
+.menu-items {
+    font-family: 'Montserrat', sans-serif;
+    color: #77a466;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0;
+}
+
+.menu-items li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.second-section {
+    border-right: 1px solid #dedbdc;
+    border-left: 1px solid #dedbdc;
+    padding: 0 30px;
+}
+
+.reviews {
+    font-size: 16px;
+    line-height: 21px;
+    text-align: left;
+}
+
+.contact-us li {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    list-style: none;
+}
+
+.contact-us-header {
+    margin-left: 40px;
+}
+
+.first-section, .second-section, .third-section {
+    border-top: 1px solid #dedbdc;
+}
+
+/***** FOOTER *****/
+footer .full-width {
+    height: 80px;
+    margin: 0 auto;
+    clear: both;
+    border-top: 1px solid #dedbdc;
+    text-align: center;
+}
+
+footer h3 {
+    padding: 15px 0;
+}
+
+footer h3 span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: lowercase;
+}
